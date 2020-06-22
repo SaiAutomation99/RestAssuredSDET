@@ -20,11 +20,11 @@ public class PostCall {
 		RequestSpecification request=	RestAssured.given();
 		
 		JSONObject obj=new JSONObject();
-		obj.put("FirstName", "postmanman");
-		obj.put("LastName", "manman");
-		obj.put("UserName", "postmanseriesman");
-		obj.put("Password", "poastmanman");
-		obj.put("Email", "poatman112@gmail.com");
+		obj.put("FirstName", "postmanmanmn");
+		obj.put("LastName", "manmanng");
+		obj.put("UserName", "postmanseriesmanman");
+		obj.put("Password", "poastmanmanmu");
+		obj.put("Email", "poatman43112@gmail.com");
 		
 		request.header("Content-Type","application/json");   //attach the header
 		request.body(obj.toJSONString());      //attach body to the request
