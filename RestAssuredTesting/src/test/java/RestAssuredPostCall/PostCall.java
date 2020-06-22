@@ -20,14 +20,14 @@ public class PostCall {
 		RequestSpecification request=	RestAssured.given();
 		
 		JSONObject obj=new JSONObject();
-		obj.put("FirstName", "postman");
-		obj.put("LastName", "man");
-		obj.put("UserName", "postmanseries");
-		obj.put("Password", "poastman");
-		obj.put("Email", "poatman12@gmail.com");
+		obj.put("FirstName", "postmanman");
+		obj.put("LastName", "manman");
+		obj.put("UserName", "postmanseriesman");
+		obj.put("Password", "poastmanman");
+		obj.put("Email", "poatman112@gmail.com");
 		
-		request.header("Content-Type","application/json");
-		request.body(obj.toJSONString());
+		request.header("Content-Type","application/json");   //attach the header
+		request.body(obj.toJSONString());      //attach body to the request
 		
 		Response response=request.request(Method.POST,"register");
 		
@@ -37,9 +37,9 @@ public class PostCall {
 		
 		System.out.println(response.asString());
 		
-		//String code=response.jsonPath().get("SuccessCode").toString();
+		String code=response.jsonPath().get("SuccessCode").toString();
 				
-		//System.out.println(code);
+		System.out.println(code);
 		
 		//get call
 		
