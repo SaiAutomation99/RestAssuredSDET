@@ -35,16 +35,9 @@ public class GetCallVerifcation {
 		
 		System.out.println(obj.get(i));
 		
-	}
-		
-		
+	}		
 		String m=path.get("menu.popup.menuitem.value").toString();
-		System.out.println(m);
-		
-		
-		
-	
-		
+		System.out.println(m);	
 	}
 	
 		 
