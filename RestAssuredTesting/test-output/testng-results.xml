@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2374" started-at="2020-06-22T07:25:46Z" finished-at="2020-06-22T07:25:48Z">
+  <suite name="Default suite" duration-ms="1527" started-at="2020-06-25T07:03:41Z" finished-at="2020-06-25T07:03:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2374" started-at="2020-06-22T07:25:46Z" finished-at="2020-06-22T07:25:48Z">
-      <class name="AutenticationGetCall.AutenticationGetCall">
-        <test-method status="PASS" signature="autenticationGetCall()[pri:0, instance:AutenticationGetCall.AutenticationGetCall@675d3402]" name="autenticationGetCall" duration-ms="2356" started-at="2020-06-22T12:55:46Z" finished-at="2020-06-22T12:55:48Z">
+    <test name="Default test" duration-ms="1527" started-at="2020-06-25T07:03:41Z" finished-at="2020-06-25T07:03:43Z">
+      <class name="GetCallVerifyicationJson2.GetCallVerifcation">
+        <test-method status="PASS" signature="testData()[pri:0, instance:GetCallVerifyicationJson2.GetCallVerifcation@1753acfe]" name="testData" duration-ms="1508" started-at="2020-06-25T12:33:41Z" finished-at="2020-06-25T12:33:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- autenticationGetCall -->
-      </class> <!-- AutenticationGetCall.AutenticationGetCall -->
+        </test-method> <!-- testData -->
+      </class> <!-- GetCallVerifyicationJson2.GetCallVerifcation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
